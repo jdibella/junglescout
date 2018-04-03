@@ -1,6 +1,6 @@
 module Api::V1
   class ProductRankingSerializer < ActiveModel::Serializer
-    attributes :rank, :category
+    attributes :id, :rank, :category
 
     belongs_to :product
   end

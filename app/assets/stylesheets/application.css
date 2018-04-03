@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+#productCard.card .card-content{
+  overflow-y: scroll;
+}
+#productCard.card .card-content > div {
+  padding-bottom: 40px; /* to account for reviews */
+}

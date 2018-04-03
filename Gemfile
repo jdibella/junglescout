@@ -37,6 +37,7 @@ gem 'nokogiri'
 gem 'openssl'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'react-rails'
+gem 'webpacker'
 
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver

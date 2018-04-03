@@ -1,6 +1,6 @@
 module Api::V1
   class ProductSerializer < ActiveModel::Serializer
-    attributes :title, :asin
+    attributes :id, :title, :asin
 
     has_one :product_ranking
   end
