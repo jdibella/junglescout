@@ -1,1 +1,0 @@
-product_scraper_service_test.rb

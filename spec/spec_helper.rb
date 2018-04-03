@@ -98,3 +98,10 @@ end
 require 'webmock/rspec'
 WebMock.disable_net_connect!(allow_localhost: true)
 
+require "support/stubs"
+
+RSpec.configure do |c|
+  c.include HttpStubs, type: :stub_request
+  c.include HttpStubs, type: :controller
+end
+

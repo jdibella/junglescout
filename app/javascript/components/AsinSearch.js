@@ -94,7 +94,9 @@ class AsinSearch extends React.Component {
                     label="Amazon ASIN" name="asin"
                     onChange={this.handleSearch}/>
 
-                  <Button waves='light' onClick={this.submit}>Look up<Icon left>search</Icon></Button>
+                  <Button waves='light' onClick={this.submit}>
+                    Look up <Icon left>search</Icon>
+                  </Button>
                 </form>
               </Col>
             </Row>
